@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 768px){
+  .slideshow-container{
+    display: none;
+  }
+.home-body{
+  width: 100%;
+  height: 1500px;
+  padding-top: 50px;
+  background-color: #aaa;
+  margin-top:-18px;
+}
+
+.all-frame{
+    display: flex;
+    flex-direction:column; 
+    margin: auto;
+    width:100%;
+  }
+    .frame{
+      width: 300px;
+      height: 450px;
+      margin: auto;
+      margin-bottom: 30px;
+      position: relative;
+      background-color: #fff;
+
+    
+    }
+    .frame img{
+      width: 300px;
+    }
+    .frame-title{
+      color: #000;
+      background-color: rgba(153,217,234,.7);
+      width: 70%;
+      position: absolute;
+      top: 122px;
+      left: 0;
+      font-size: 20px;
+      font-family:Microsoft JhengHei;
+      font-weight: bold;
+    }
+    .frame-title span{
+      margin: 15px;
+    }
+    .frame-text h1{
+      color: #0080FF;
+      font-family:Microsoft JhengHei;
+    }
+    .frame-text p{
+      font-family:Microsoft JhengHei;
+    }
+    .frame-text{
+      padding: 20px;
+    }
+    .frame-more{
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #333;
+      color: #fff;
+      font-family:Microsoft JhengHei;
+      padding-left: 20px;
+      font-size: 18px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+    .frame-more:hover{
+      background-color: #000;
+      transition: .5s;
+    }
+
+  }

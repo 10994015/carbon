@@ -1,0 +1,59 @@
+ .img-title-logo{
+	width: 60px;
+	height: 66px;
+}
+ .databaseimg{
+            width: 800px;
+            height: 500px;
+            text-align: center;
+            margin:100px 0 100px 20px;     
+        }
+ @media screen and (max-width: 768px){
+ .databaseimg{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin:0;     
+        }
+.main-body-menu{
+	width: 60%;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	left: 20%;
+}
+.button{
+	width: 90%;
+}
+.container{
+	width: 90%;
+	margin: auto;
+
+}
+.img-title{
+	padding: 20px 0 20px 20px;
+	display: flex;
+	padding-top: 400px;
+}
+.main-body-article{
+	display: flex;
+    flex-direction: column;
+}
+.main-body-date{
+    width: 90%;
+	margin:0 0 0 10px;
+}
+.main-body-text{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width:100%;
+	line-height: 30px
+}
+.button{
+	margin-bottom: 10px;
+}
+.main-body-text p{
+	margin-top: 20px;
+}
+}

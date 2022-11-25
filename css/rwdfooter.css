@@ -1,0 +1,56 @@
+ @media screen and (max-width: 768px){
+
+ 	.footer{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(#555,#222);
+	color: #fff;
+	margin: auto;
+}
+.footer-title{
+	margin-bottom: 20px;
+}
+
+.footer-one{
+	width:300px;
+	margin-left: 0;
+	margin-bottom: 30px;
+}
+
+
+.footer-center{
+   display: flex;
+   flex-direction:column; 
+   margin: auto;
+   width: 80%;
+   padding-top: 50px;
+}
+.footer-two{
+	margin-left: 0px;
+	display: flex;
+}
+.footer-two img{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.footer-img-title{
+	font-size: 14px
+	display: flex;
+}
+.footer-img-title img{
+	width: 40px;
+	height: 40px;
+}
+.beeline{
+	margin:70px 0 0 20px ;
+	width: 1px;
+	height: 150px;
+	background-color: #999;
+	display: none;
+}
+.fb{
+	width: 50px;
+}
+
+}

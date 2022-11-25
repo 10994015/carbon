@@ -1,0 +1,80 @@
+ .img-title-logo{
+	width: 60px;
+	height: 66px;
+}
+.seminarflex{
+	display:flex;margin-top: 100px;
+}
+
+ @media screen and (max-width: 768px){
+
+.main-body-menu{
+	width: 60%;
+	height: 300px;
+	position: absolute;
+	top: 50px;
+	left: 20%;
+}
+.button{
+	width: 90%;
+}
+.container{
+	width: 90%;
+	margin: auto;
+
+}
+.img-title{
+	padding: 20px 0 20px 20px;
+	display: flex;
+	padding-top: 300px;
+}
+.main-body-article{
+	display: flex;
+    flex-direction: column;
+}
+.main-body-date{
+    width: 90%;
+	margin:0 0 0 10px;
+}
+.main-body-text{
+	margin: 0;
+	margin-bottom: 30px;
+	width:90%;
+	line-height: 30px
+}
+.main-body-text h3{
+	font-size: 24px;
+}
+.main-body-text span{
+	font-size: 18px;
+	margin-right: 0;
+	width: 100%;
+}
+.main-body-text a{
+	display: block;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	margin: auto;
+	margin-top: 20px;
+}
+.button{
+	margin-bottom: 10px;
+}
+ .databaseimg{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin: auto;
+            margin:30px auto;   
+        }
+        .seminarflex{
+     width: 100%;
+	display:flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+}
